@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px;
+}
+
+header button{
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+#left-header{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+#left-header img{
+    width: 125px;
+    height: 33px;
+}
+
+header nav{
+    background-color: pink;
+    display: flex;
+    gap: 40px;
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+header nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+main{
+    display: flex;
+    padding: 66px 133px;
+    gap: 85px;
+}
+
+main img{
+    width: 150px;
+    height: 166px;
+    border-radius: 5px;
+}
+
+#main-left-img{
+    margin-top: 90px;
+}
+
+main h1{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+main h1 span{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#main-content{
+    text-align: center;
+}
+
+#main-content p{
+    padding-top: 33px;
+    padding-bottom: 33px;
+    width: 590px;
+}
+
+#main-content #search-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#main-content input{
+    padding: 10px 15px;
+    background-color: pink;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+
+.ri-search-line{
+    color: orangered;
+}
+
+#section-one{
+    padding: 7%;
+}
+
+#section-one-content{
+    width: 50%;
+}
+
+#section-one-content h1{
+    font-weight: 100;
+    font-size: 240%;
+    padding-bottom: 15px;
+}
+
+#section-one-content p{
+    padding-bottom: 40px;
+}
+
+#section-one-images{
+    display: flex;
+    gap: 2%;
+}
+
+#section-one-images img{
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#section-one-images h3{
+    font-weight: 100;
+}
+
+#section-one-images h3:nth-child(2){
+    color: orangered;
+}
+
+.section-one-images-content{
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-two{
+    padding: 1% 7%;
+    display: flex;
+    gap: 18%;
+}
+
+#section-two h1{
+    font-weight: 500;
+    font-size: 220%;
+    padding-bottom: 1.5%;
+}
+
+#section-two span{
+    color: orangered;
+}
+
+#section-two p{
+    padding-bottom: 5%;
+}
+
+#section-two button{
+    color: pink;
+    border: 2px solid pink;
+    background-color: white;
+    padding: 2.5% 6.5%;
+    font-weight: bold;
+    border-radius: 7.5%;
+    font-size: 80%;
+}
+
+#section-two img{
+    width: 100%;
+}
+
+footer{
+    padding: 15% 7%;
+    display: flex;
+    gap: 7.5%;
+}
+
+footer img{
+    width: 125px;
+    height: 33px;
+}
+
+footer h6{
+    padding-top: 15%;
+}
+
+footer h4{
+    padding-bottom: 15%;
+}
+
+footer a{
+    font-size: 75%;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 10%;
+}

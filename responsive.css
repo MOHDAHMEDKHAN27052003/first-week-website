@@ -1,0 +1,93 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Your CSS rules here */
+    header nav{
+      display: none;
+    }
+
+    header button{
+      display: none;
+    }
+
+    header .ri-menu-line{
+      display: initial;
+    }
+
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #main-content p{
+      width: 300px;
+    }
+
+    #section-one-images{
+      flex-wrap: wrap;
+    }
+
+    #section-one-content{
+      width: 100%;
+    }
+
+    #section-two{
+      flex-wrap: wrap;
+    }
+
+    #section-two-content{
+      padding-bottom: 5%;
+    }
+
+    footer{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your CSS rules here */
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS rules here */
+    header nav{
+      display: none;
+    }
+
+    header .ri-menu-line{
+      display: initial;
+    }
+
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    #section-two{
+      flex-wrap: wrap;
+    }
+
+    #section-two-content{
+      padding-bottom: 5%;
+    }
+
+    footer{
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS rules here */
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Your CSS rules here */
+  }  
